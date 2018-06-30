@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+    /* http://meyerweb.com/eric/tools/css/reset/
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	font-size: 100%;
+    	font: inherit;
+    	vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    	display: block;
+    }
+    body {
+    	line-height: 1;
+    }
+    ol, ul {
+    	list-style: none;
+    }
+    blockquote, q {
+    	quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    	content: '';
+    	content: none;
+    }
+    table {
+    	border-collapse: collapse;
+    	border-spacing: 0;
+    }
+
+    @import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+
+    body {
+      overflow-y: hidden;
+    }
+
+    .bg-single {
+      width: 12.5%;
+      height: 210px;
+      display: block;
+      border: none;
+    }
+
+    #bg-overlay {
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+
+    #main-typo {
+      color: white;
+      font-size: 180px;
+      position: absolute;
+      left: 50%;
+      width: 600px;
+      margin-left: -300px;
+      text-align: center;
+      font-family: 'Nanum Brush Script', serif;
+      line-height: 1.4em;
+      top: 200px;
+    }
+
+    #made-by {
+      position: absolute;
+      right: 0px;
+      text-align: right;
+      bottom: 0px;
+      color: white;
+      font-size: 10px;
+      line-height: 1.4em;
+      margin-right: 5px;
+    }
+
+    #bg-2 {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 100;
+      -webkit-animation-name: bg_change; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+      animation-iteration-count: infinite;
+      /* animation-direction: alternate-reverse; */
+      animation-name: bg_change;
+      animation-duration: 10s;
+    }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes bg_change {
+      0% {opacity: 1.0;}
+      100% {opacity: 0.0;}
+    }
+
+    /* Standard syntax */
+    @keyframes bg_change {
+      0% {opacity: 1.0;}
+      30% {opacity: 0.0;}
+      70% {opacity: 0.0;}
+      100% {opacity: 1.0;}
+    }
+
+    </style>
+  </head>
+  <body>
+    <img id="bg-2" src="./src/yh_full.jpeg" />
+
+    <div id="bg-overlay"></div>
+    <div id="bg-gallery">
+
+      <img align="left" class="bg-single" src="./src/yh_01.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_02.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_03.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_04.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_05.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_06.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_07.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_08.png" alt="" />
+
+      <img align="left" class="bg-single" src="./src/yh_09.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_10.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_11.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_12.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_13.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_14.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_15.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_16.png" alt="" />
+
+      <img align="left" class="bg-single" src="./src/yh_17.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_18.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_19.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_20.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_21.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_22.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_23.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_24.png" alt="" />
+
+      <img align="left" class="bg-single" src="./src/yh_25.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_26.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_27.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_01.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_02.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_03.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_04.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_05.png" alt="" />
+
+      <img align="left" class="bg-single" src="./src/yh_06.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_07.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_08.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_09.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_10.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_11.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_12.png" alt="" />
+      <img align="left" class="bg-single" src="./src/yh_13.png" alt="" />
+
+    </div>
+    <div>
+      <h1 id="main-typo">여현아,</br>생일축하해</h1>
+    </div>
+
+    <p id="made-by">DESIGNED BY VIRUS-LAB 신채원<br/>DEVELOPED BY VIRUS-LAB 박준혁</p>
+  </body>
+</html>
